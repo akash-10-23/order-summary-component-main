@@ -1,0 +1,107 @@
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.orderCard {
+    max-width: 375px;
+    margin: auto 0;
+    border-radius: 20px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img img{    
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin: 1.5rem 0;
+}
+
+.content {
+    width: 80%;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 80%;
+    margin: 1.5rem 0;
+    border-radius: 20px;
+    font-size: 1rem;
+    position: relative;
+    background: hsl(225, 100%, 98%);
+}
+
+.price-detail {
+    position: absolute;
+    left: 30%;
+}
+
+.price-title {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    margin: 0.2rem 0;
+}
+
+.amount {
+    color: hsl(224, 23%, 55%);
+}
+
+.price a {
+    color: hsl(245, 75%, 52%);
+}
+
+.price a:hover{
+    text-decoration: none;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.payment {
+    width: 80%;
+    background: hsl(245, 75%, 52%);
+    padding: 1rem;
+    text-align: center;
+    color: hsl(225, 100%, 98%);
+    font-weight: 700;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0px 12px 5px hsl(225, 100%, 94%);
+}
+
+.payment:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.cancel {
+    margin-bottom: 2rem;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+.cancel:hover {
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
