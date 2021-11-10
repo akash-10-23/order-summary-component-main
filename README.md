@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo Link]()
-- Live Site URL: [Page hosted on Github]()
+- Solution URL: [Github Repo Link](https://github.com/akash-10-23/order-summary-component-main)
+- Live Site URL: [Page hosted on Github](https://akash-10-23.github.io/order-summary-component-main/)
 
 ## My process
 
